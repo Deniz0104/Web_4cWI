@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+}
+.mainbox {
+    height: 100vh;
+    position: relative;
+}
+
+.boxrightbottom {
+    position: absolute;
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+}
+
+.topbox {
+    background-color: yellow;
+    height: 200px;
+    display: flex;
+    justify-content: right;
+}
+
+.topboxleft {
+    background-color: yellow;
+    width: 50%;
+}
+.topboxright {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 75px;
+
+}
+
+.box {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+}
+
+.info {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: cyan;
+    height:300px;
+    width: 480px;
+    position: relative;
+}
+
+.info h1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.info ul {
+    padding-top: 10px;
+}
+
+.innerbox{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}

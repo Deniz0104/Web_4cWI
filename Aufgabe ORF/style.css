@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-feature-settings: "liga", "kern"
+
+}
+
+body {
+    position: absolute;
+}
+
+.top-navigation {
+    margin-left: 125px;
+}
+
+.top-navigation ul {
+    background-color:#9E0B0F ;
+    display: flex;
+    height: 27px;
+    justify-content: space-between;
+    padding-left: 18px;
+    margin: 0;
+    outline: none;
+    list-style-type: none;
+    gap: 40px;
+
+}
+
+li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 5px;
+
+
+}
+.right-point {
+    padding-left: 1em;
+    padding-right: 25px;
+}
+
+.austria-design {
+    color: #F09A9D;
+}
+
+.logo-area {
+    margin-left: 125px;
+    padding-top: 25px;
+    padding-left: 40px;
+    height: 50px;
+    background: #BB131A;
+}
+.logo-area h1 {
+    color: #ffffff;
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-size: 1.625rem;
+    text-transform: lowercase;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+img {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+}
+
+.bottom-navigation{
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.bottom-navigation ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -50px;
+    height: 40px;
+    padding-right: 50px;
+
+}
+.design-listtext {
+    font-weight: bold;
+    font-size: 18px;
+}
+.bottombar {
+    margin-left: 125px;
+    background: #790000;
+}
+.barcolor {
+    height: 8px;
+    background: #D32824;
+    border-bottom: 3px solid #E94E38;
+}
+
+.bell {
+    position: relative;
+    width: 20px;
+    aspect-ratio: auto 15 / 17;
+    height: 17px;
+}
+
+.backgroundimg {
+    padding-top: 0.6em;
+    margin-left: 7.8em;
+    width: 56.2em;
+    height: 25em;
+}
+
+.textblock {
+    width: 47.5em;
+    position: relative;
+    background-color: white;
+    margin-left: 12em;
+    margin-top: 20em;
+    height: 150vh;
+}
+
+.heading h1{
+    font-style: normal; 
+    font-weight: 700;
+    margin: 15px;
+}
+.textarea {
+    margin: 20px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.title p{
+    font-weight: bold;
+    color: #84868c;
+    padding-top: 25px;
+    padding-left: 25px;
+}
