@@ -1,0 +1,11 @@
+.heading { 
+    margin-left: 47%;
+}
+.taskarea li {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+.events{
+    margin-left: 45%;
+}

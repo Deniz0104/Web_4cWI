@@ -1,7 +1,7 @@
 let calendar = {
     month: 0,
     startingDay: 1,
-    amountOfWeekdays: 7,
+    amountOfWeekdays: 6,
     months: [
         {name: "Januar", days: "31", offset: 4},
         {name: "Februar", days: "28", offset: 0},
@@ -33,15 +33,16 @@ function printDaysOfMonth(month, startingDay) {
     console.log(" ");
     console.log(" | " + calendar.months[month].name + " | ");
     printWeek();
-    for (let index = 0; index < startingDay; index++) {
+    for (let a = 0; a < startingDay; a++) {
         week += "    |  ";
         
     }
 
 
     for (let daysMonth = 1; daysMonth <= calendar.months[month].days; daysMonth++) {
+            week += daysMonth + "  |  ";
+
         
-        week += daysMonth + "  |  ";
         if ((daysMonth+startingDay) % 7 == 0) {
             console.log(week);
             week = " |  ";
