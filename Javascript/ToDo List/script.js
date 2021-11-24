@@ -11,16 +11,21 @@ function addTask() {
     else {
         alert("That is not a task. Add a valid task!")
     }
-    document.getElementById("inputTask").value = "";
+    input = "";
 }
-
 
 function drawTasks() {
     let content = "";
-    for (let i = 0; i < taskArray.length; i++) {
-        content +=
-        "<li class='task' id='task"+i+"'>" + taskArray[i] + "</li>";
+    let responsiblePerson = document.getElementById("responsiblePerson").value;
+    if (responsiblePerson == "" || responsiblePerson == " ") {
+        alert("Who is responsible for the task - Please add the name!");
     }
-    todoListTasks.innerHTML = content;
+    else {
+        for (let i = 0; i < taskArray.length; i++) {
+            content = "<li id='task"+i+"'>" + i + ". " +"<input id='checkBoxInput' type='checkbox'/>" + taskArray[i] + " - " + responsiblePerson + "</li>";
+        }
+    }
+    todoListTasks.innerHTML += content;
 }
+
 

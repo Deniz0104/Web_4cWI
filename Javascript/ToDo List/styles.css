@@ -20,5 +20,7 @@
     text-align: left;
 }
 .events{
-    margin-left: 45%;
+    display: block;
+    justify-content: space-around;
+    margin-left: 25%;
 }
