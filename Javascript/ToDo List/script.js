@@ -1,26 +1,26 @@
 var taskArray = [];
+var todoListTasks = document.getElementById("todoList");
+
 function addTask() {
-    var todoList = document.getElementById('todoList');
-    var input = document.getElementById("inputTask").value;
-    
-    todoList.innerHTML += "<li class='todotasks"+taskArray.length+"'>"+ input +"</li>";
+
+    let input = document.getElementById("inputTask").value;
+    if (input != "" && input != " ") {
+        taskArray.push(input);
+        drawTasks();
+    }
+    else {
+        alert("That is not a task. Add a valid task!")
+    }
+    document.getElementById("inputTask").value = "";
 }
 
 
 function drawTasks() {
+    let content = "";
     for (let i = 0; i < taskArray.length; i++) {
-        todoList.innerHTML = "Hello" + taskArray[i];
-        
-        
+        content +=
+        "<li class='task' id='task"+i+"'>" + taskArray[i] + "</li>";
     }
-
-    
-
+    todoListTasks.innerHTML = content;
 }
 
-function deleteTask() {
-    var todoList = document.getElementById('todoList');
-    var input = document.getElementById("inputTask").value;
-    
-    todoList.innerHTML -= "<li>"+ input +"</li>";
-}
