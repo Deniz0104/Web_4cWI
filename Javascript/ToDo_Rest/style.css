@@ -1,0 +1,30 @@
+.button-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    background-color: orange;
+    padding: 25px;
+    margin: 15px;
+    border-style: none;
+    color: white;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    background-color: brown;
+}
+
+.content li {
+    background-color: brown;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.content li:hover {
+    cursor: pointer;
+    background-color: rgb(116,19,19);
+}

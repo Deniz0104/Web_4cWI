@@ -11,17 +11,17 @@
 <body>
     <h1>Währungsrechner</h1>
     <input type="number" id="inputTask" placeholder="Value"/>
-    <select id="currencies">
-        <option value="euro">€</option>
-        <option value="usd">$</option>
-        <option value="bitcoin">BTC</option>
+    <select id="firstCurrencies">
+        <option value="Euro">Euro</option>
+        <option value="USD">USD</option>
+        <option value="Bitcoins">BitCoin</option>
     </select>
-    <select id="calculatedCurrency">
-        <option value="euro">€</option>
-        <option value="usd">$</option>
-        <option value="bitcoin">BTC</option>
+    <select id="secondCurrencies">
+        <option value="Euro">Euro</option>
+        <option value="USD">USD</option>
+        <option value="Bitcoins">BitCoin</option>
     </select>
-
-
+    <button onclick="calculation()">Calculate</button>
+    <p id="resultarea"></p>
 </body>
 </html>
