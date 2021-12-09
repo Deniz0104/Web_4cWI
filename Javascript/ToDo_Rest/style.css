@@ -4,7 +4,7 @@
     justify-content: center;
 }
 .buttons {
-    background-color: orange;
+    background-color: rgb(75, 211, 21);
     padding: 25px;
     margin: 15px;
     border-style: none;
@@ -13,11 +13,11 @@
 
 .buttons:hover {
     cursor: pointer;
-    background-color: brown;
+    background-color: rgb(20, 136, 20);
 }
 
 .content li {
-    background-color: brown;
+    background-color: rgb(27, 105, 27);
     padding: 20px;
     margin: 5px;
     color: white;
@@ -26,5 +26,5 @@
 
 .content li:hover {
     cursor: pointer;
-    background-color: rgb(116,19,19);
+    background-color: rgb(23, 90, 23);
 }
