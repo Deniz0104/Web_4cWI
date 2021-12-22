@@ -1,0 +1,20 @@
+.wrapper {
+    max-width: 90vw;
+    margin: 0px auto;
+}
+.wrapper-background {
+    background: url(images/banner.jpg);
+    width: 90vw;
+    height: 28vh;
+    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    position: absolute;
+}
+
+.actions {
+    position: relative;
+
+}
