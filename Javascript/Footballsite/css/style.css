@@ -105,3 +105,24 @@
     font-size: 21px;
     position: absolute;
 }
+
+#teams {
+    width:100vw;
+    height:40vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+}
+#teams img {
+    width: 100%;
+    height: auto;
+}
+.teamName {
+    display: none;
+  }
+.teamName:nth-child(3n) {
+    display: block;
+    width: 100%;
+    height: 0;
+  }
