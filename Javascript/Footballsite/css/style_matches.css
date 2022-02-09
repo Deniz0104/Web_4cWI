@@ -1,5 +1,10 @@
+body {
+    background-color: lightgrey;
+}
+
 .wrapper {
     max-width: 90vw;
+    height: auto;
     margin: 0px auto;
 }
 .wrapper-background {
@@ -15,9 +20,9 @@
 
 .text {
     position: absolute;
-    top: 115px;
-    width: 55vw;
-    margin-left: 225px;
+    top: 95px;
+    width: 50vw;
+    left: 350px;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -27,65 +32,47 @@
     text-decoration: none;
     color: white;
     font-family: Vollkorn;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 #homebutton img{
-    top: 75px;
-    margin-left: 100px;
-    width: 93px;
-    height: 89px;
+    top: 50px;
+    margin-left: 80px;
+    width: 7vw;
+    height: 13vh;
     position: absolute;
 }
 .wrapperbar {
     background-color: #0A0909;
-    height: 5.8vh;
+    height: 8vh;
     width: 90vw;
     margin: 0px auto;
 }
 .location {
     color: white;
     font-family: Vollkorn;
-    font-size: 21px;
-    padding: 17px;
-    left: 95px;
+    font-size: 25px;
+    padding: 20px;
+    left: 100px;
     position: absolute;
 }
 
 .maincontent {
-    height: 65vh;
+    height: auto;
     width: 90vw;
-    background-color: lightgrey;
-    margin: 0px auto;
+    background-color: white;
+    margin: auto;
 }
 
 .header {
     padding: 50px;
     font-family: Vollkorn;
-    font-size: 48px;
-}
-
-.textcontent p {
-    background-color: #FCA311;
-    border: 1px solid black;
-    font-family: sans-serif;
-    font-size: 24px;
-    width: 31vw;
-    height: 30vh;
-    line-height: 33px;
-    padding: 10px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-}
-
-.textcontent {
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
+    font-size: 40px;
 }
 
 .footer {
     width: 90vw;
-    height: 4vh;
+    height: 5.5vh;
     margin: 0px auto;
     background-color: #14213D;
     color: white;
@@ -101,28 +88,16 @@
 #date {
     color: white;
     right: 105px;
-    padding: 17px;
-    font-size: 21px;
+    padding: 20px;
+    font-size: 25px;
     position: absolute;
 }
 
 #teams {
-    width:100vw;
-    height:40vh;
+    width:auto;
+    height:auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    overflow: auto;
+    overflow-y: auto;
 }
-#teams img {
-    width: 100%;
-    height: auto;
-}
-.teamName {
-    display: none;
-  }
-.teamName:nth-child(3n) {
-    display: block;
-    width: 100%;
-    height: 0;
-  }
