@@ -1,20 +1,9 @@
-class Car {
-    horsepower = 70;
+import Person, {Animal, School} from "./Person.js";
+import Car from "./Car.js";
 
-    constructor(color, brand, country = "Deutschland" ) {
-        this.color = color;
-        this.brand = brand;
-        this.country = country;
-    }
 
-    printSpecification() {
-        console.log(this.color + " - "+ this.brand + " " +  this.horsepower + " " +this.country)
-
-    }
-
-}
-let c1 = new Car("red", "ferrari","Italy");
-let c2 = new Car("blue", "BMW", "Deutschland");
-
+let p1 = new Person("Habibi")
+let c1 = new Car("red", "ferrari","Italy")
+p1.sayHello();
 c1.printSpecification();
-c2.printSpecification();
+
