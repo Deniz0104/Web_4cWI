@@ -93,11 +93,22 @@ body {
     position: absolute;
 }
 
-#teams {
-    width:auto;
-    height:auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    overflow-y: auto;
+.matches {
+    color: gray;
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 550px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 30vw;
+    border: 2px solid black;
+}
+.winner {
+    color: black;
+    font-size: 15px;
+}
+
+.footer {
+
 }
