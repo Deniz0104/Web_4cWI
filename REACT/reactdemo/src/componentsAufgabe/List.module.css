@@ -1,0 +1,10 @@
+.list {
+    background-color: darkcyan;
+    margin: 2px;
+    width: 10%;
+    height: 50px;
+    list-style: none;
+}
+.list:hover {
+    background-color: rgb(1, 95, 95);
+}
