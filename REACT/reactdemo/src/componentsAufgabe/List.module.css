@@ -1,10 +1,20 @@
 .list {
-    background-color: darkcyan;
-    margin: 2px;
-    width: 10%;
-    height: 50px;
-    list-style: none;
+    display: inline-block;
 }
-.list:hover {
-    background-color: rgb(1, 95, 95);
+
+
+li {
+    background-color: darkcyan;
+    color: white;
+    margin: 1px;
+    width: 75px;
+    height: 40px;
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 90px;
+    text-align: left;
+}
+li:hover {
+    background-color: rgb(0, 107, 107);
 }
