@@ -1,0 +1,7 @@
+.card {
+    background-color: aqua;
+    width: 200px;
+    min-height: 50px;
+    display: inline-block;
+    margin: 15px;
+}
