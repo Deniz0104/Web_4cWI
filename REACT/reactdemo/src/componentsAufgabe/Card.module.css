@@ -1,3 +1,29 @@
 .card {
-    image-resolution: 100px;
+    margin-top: 50px;
+    margin-left: 33%;
+    position: absolute;
+    
+}
+.cardInfo {
+    margin-top: -10px;
+    height: 130px;
+    -moz-box-shadow: 0 0 2px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.name {
+    padding-top: 25px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+
+.job {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    
 }

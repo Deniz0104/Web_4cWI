@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <List/>
       <Button/>
-      <Card/>
+      <Card title="Deniz Karakoc" job="IT Management"/>
     </div>
   );
 }
