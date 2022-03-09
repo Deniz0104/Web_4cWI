@@ -13,9 +13,11 @@ function App() {
   return (
     <div className="App">
       <h1 class="heading">Properties</h1>
-      <Vote candidate="Deniz" location="Hard"/>
-      <Vote candidate="Hamid" location="Bregenz"/>
-      <Vote candidate="Döner" location="Dornbirn"/>
+      <div class="container">
+        <Vote candidate="Deniz" location="Hard" job="Student"/>
+        <Vote candidate="Hamid" location="Bregenz" job="IT Administration"/>
+        <Vote candidate="Döner" location="Fußach" job="Teacher"/>
+      </div>
     </div>
   );
 }
