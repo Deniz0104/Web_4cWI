@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aqua;
+    margin-bottom: 2px;
+    height: 30%;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
