@@ -12,7 +12,7 @@ export default class Vote extends Component{
         };
     }
 
-    voted = ()=> {
+    voted = () => {
         
         this.setState(
             {counter: this.state.counter + 1}

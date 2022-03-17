@@ -5,7 +5,7 @@ import { IoIosCloseCircleOutline } from "react-icons/io"
 export default class Tasks extends Component {
 
   removed = () => {
-    alert("Task removed !")
+    alert("Hello")
   }
 
   render() {
