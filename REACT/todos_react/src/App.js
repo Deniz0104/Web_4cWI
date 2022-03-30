@@ -23,11 +23,36 @@ class App extends Component {
     }
   }
 
+  addTask = (value) => {
+    alert("Task added: " + value)
+    let newTodo = {
+      id: 1,
+      name: value,
+      isDone:false
+    }
+    let todoList = this.state.todos;
+    todoList.push(newTodo)
+
+    this.setState({
+      todos:todoList
+    })
+  }
+
+  removeTask = () => {
+    let todoListTaskRemove = this.state.todos;
+
+    todoListTaskRemove.splice(1)
+
+    this.setState({
+      todos:todoListTaskRemove
+    })
+  }
+
   render() {
     return (
     <div className="App">
       <Header />
-      <TaskAdder />
+      <TaskAdder taskAdded={this.addTask} taskRemoved={this.removeTask}/>
       <TaskList todos={this.state.todos}/>
     </div>
     );

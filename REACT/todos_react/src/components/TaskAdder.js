@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Tasks from './Tasks'
 
 export default class TaskAdder extends Component {
 
@@ -9,26 +8,24 @@ export default class TaskAdder extends Component {
       inputValue: "test"
     }
   }
+
+  handleChange = (event) => {
+    this.setState({
+      inputValue: event.target.value
+    })
+  }
+
   addTask = () => {
-    alert("Task added!")
-    let newTask;
+    this.props.taskAdded(this.state.inputValue)
 
   }
 
-  handleChange = () => {
-    console.log("changing")
-  }
-
-  value = {
-    "id": null,
-    "name": newTask,
-    "isDone": false
-  }
+ 
 
   render() {
     return (
       <div>
-        <input type="text" value={this.state.inputValue} onChange={handleChange}></input>
+        <input type="text" value={this.state.inputValue} onChange={this.handleChange}></input>
         <button onClick={this.addTask}>Add</button>
       </div>
     )
