@@ -3,26 +3,14 @@
     justify-content: space-between;
     padding: 20px;
     background-color: rgb(182, 174, 174);
-    margin-bottom: 4px;
+    margin-bottom: -25px;
     height: 10vh;
     -webkit-box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.75); 
     box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.75);
 
 }
 
-.icon {
-    font-size: 2rem;
-}
-
-.icon:hover {
-    cursor: pointer;
-}
 .styleText {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.checkBox {
-    width: 20px;
-    height: 20px;
-    margin-right: 300px;
 }

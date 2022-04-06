@@ -7,3 +7,18 @@
 .todolist{
     width: 50%;
 }
+
+.icon {
+    font-size: 2rem;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.containerIcon {
+    position: relative;
+    bottom: 90px;
+    right: 10px;
+    margin-left: 450px;
+}

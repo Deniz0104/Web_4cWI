@@ -5,7 +5,7 @@ export default class TaskAdder extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      inputValue: "test"
+      inputValue: ""
     }
   }
 
@@ -19,8 +19,6 @@ export default class TaskAdder extends Component {
     this.props.taskAdded(this.state.inputValue)
 
   }
-
- 
 
   render() {
     return (
